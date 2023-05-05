@@ -1,0 +1,13 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 200 #Hz
+    use_sim_time: true
+
+    magnecko_imu_broadcaster:
+      type: magnecko_imu_broadcaster/MagneckoImuBroadcaster
+
+magnecko_imu_broadcaster:
+  ros__parameters:
+    vectornav:
+      sensor_name: imu_sensor
+      frame_id: vectornav

@@ -1,0 +1,10 @@
+<library path="magnecko_vectornav">
+    <class name="magnecko_vectornav/MagneckoVectornav"
+           type="magnecko_vectornav::MagneckoVectornav"
+           base_class_type="hardware_interface::SensorInterface">
+
+        <description>
+            Magnecko vectornav interface.
+        </description>
+    </class>
+</library>
